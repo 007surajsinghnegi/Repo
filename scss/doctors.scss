@@ -1,0 +1,95 @@
+h3 {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    color: #2f85c4 !important;
+}
+.filters {
+    padding-top: 11px;
+    background: #eaedf5;
+    select {
+        font-size: 13px;
+        border: 1px solid #707070;
+    }
+    .grid-x {
+        align-items: center !important;
+    }
+    .city {
+        .grid-x {
+            justify-content: space-between !important;
+        }
+    }
+    .button {
+        border-radius: 10px !important;
+    }
+}
+i {
+    font-style: inherit !important;
+}
+.query {
+    .card {
+        max-height: 551px !important;
+        margin-top: -237px !important;
+        max-width: 330px !important;
+    }
+    .card-section {
+        padding: 0.5rem !important;
+        img {
+            border-radius: 50% !important;
+        }
+        button {
+            font-size: 12px !important;
+        }
+    }
+}
+.fieldspecialist {
+    .grid-x {
+        justify-content: space-between;
+        font-size: 12px;
+        align-items: baseline !important;
+        align-self: center !important;
+        text-align: center !important;
+
+        button {
+            border-radius: 10px !important;
+            color: white !important;
+            font-size: 9px;
+            vertical-align: baseline;
+        }
+    }
+}
+.card {
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 11px;
+}
+.free {
+    font: normal normal normal 14px/1 FontAwesome !important;
+    i {
+        color: #64b52a !important;
+    }
+}
+form {
+    input[type="text"],
+    select,
+    textarea {
+        border-radius: 6px;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+    .button.expanded,
+    button {
+        border-radius: 5px !important;
+        font-size: 12px !important;
+    }
+}
+::placeholder {
+    color: black !important;
+}
+.reveal {
+    background-color: transparent !important;
+    border: none !important;
+}
+@media screen and (max-width: 39.9375em) {
+    .query {
+        display: none;
+    }
+}

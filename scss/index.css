@@ -1,0 +1,147 @@
+@font-face {
+  font-family: seogoeregular;
+  src: url("../fonts/SEGOEUI.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: helvetikabold;
+  src: url("../fonts/Helvetica-Bold-Font.ttf") format("truetype");
+}
+
+h4,
+h1 {
+  font-family: Segoe UI Bold !important;
+}
+
+.aboutus {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.aboutus p {
+  font-family: "Segoe UI" !important;
+  font-weight: 400 !important;
+}
+
+/*banner*/
+.banner {
+  padding: 0px !important;
+  background-image: url("../images/Banner-image(1).jpg");
+}
+
+.banner .grid-x {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/*what wedo*/
+.whatwedo {
+  font-family: Segoe UI Bold !important;
+}
+
+.whatwedo img {
+  max-width: 45% !important;
+}
+
+/*query form*/
+form input {
+  border-radius: 5px !important;
+}
+
+form button {
+  font-family: helvetikabold !important;
+}
+
+form select,
+form textarea,
+form .button.expanded,
+form button {
+  border-radius: 5px !important;
+  font-family: "Segoe UI" !important;
+  font-weight: 400 !important;
+}
+
+/*placeholder*/
+::-webkit-input-placeholder,
+select {
+  color: black !important;
+  font-size: 14px;
+  font-family: "Segoe UI" !important;
+  font-weight: 400 !important;
+}
+:-ms-input-placeholder,
+select {
+  color: black !important;
+  font-size: 14px;
+  font-family: "Segoe UI" !important;
+  font-weight: 400 !important;
+}
+::-ms-input-placeholder,
+select {
+  color: black !important;
+  font-size: 14px;
+  font-family: "Segoe UI" !important;
+  font-weight: 400 !important;
+}
+::placeholder,
+select {
+  color: black !important;
+  font-size: 14px;
+  font-family: "Segoe UI" !important;
+  font-weight: 400 !important;
+}
+
+/*endtoemdprocess*/
+.end-to-end-process p {
+  font-family: Segoe UI !important;
+  font-weight: 500 !important;
+}
+
+.end-to-end-process b {
+  font-family: Segoe UI Bold !important;
+}
+
+.grid-container.fluid {
+  padding: 0px !important;
+}
+
+hr {
+  max-width: 92rem !important;
+}
+
+/*our specialities*/
+.specialities img {
+  max-width: 30% !important;
+}
+
+.specialities b {
+  font-family: Segoe UI Bold !important;
+  font-size: 24px;
+}
+
+.partners b {
+  font-family: Segoe UI !important;
+  font-weight: 500 !important;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .aboutus p {
+    font-size: 13px !important;
+  }
+  .specialities img {
+    max-width: 78% !important;
+  }
+  .specialities b {
+    font-size: inherit;
+  }
+  .whatwedo,
+  .specialities {
+    font-size: 10px !important;
+  }
+  .partners h5 {
+    font-size: 11px !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */

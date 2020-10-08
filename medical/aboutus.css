@@ -1,0 +1,47 @@
+
+.img2
+{
+	      margin-top: 8px;
+    margin-left: 41px;
+   
+}
+
+.img2>img
+{
+	 
+   height: 398px;
+    width: 47.5%;
+}
+.about_page_photo
+{
+	display: flex;
+	margin-top: 34px;
+	
+}
+.about-content-1
+{
+	float: right;
+	margin-top: 59px;
+	margin-right: 40px;
+}
+.img3
+{
+	      margin-left: -8px;
+    margin-top: 8px;
+   
+}
+
+.img3>img
+{
+	 
+  height: 398px;
+    width: 51.5%;
+    float: right;
+    margin-right: 41px;
+}
+.about-content-2
+{
+	
+	margin-top: 59px;
+	    margin-left: 46px;
+}

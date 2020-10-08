@@ -1,0 +1,65 @@
+
+.find{
+  display: flex;
+  background-color: #4CAF50;
+  flex-direction: row;
+  justify-content: space-between;
+  /*margin: -8px;*/
+      box-shadow: 10px 10px 5px grey;
+      flex-wrap: wrap;
+
+}
+.find> div {
+  
+ margin: 10px;
+  padding: 5px;
+  font-size: 25px;
+ 
+}
+.find input[type=text] {
+
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+  width: 300px;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+  .find{
+       margin-top: 471px;;
+  }
+
+
+}
+.s1>button
+{
+height: 10px;
+}
+.find .s1  .s3{
+  
+ margin: 10px;
+  padding: 5px;
+  font-size: 25px;
+ 
+}
+.s2
+{
+  display: flex;
+   box-shadow:4px 2px 20px darkturquoise;
+}
+.s2>button
+{
+  border-color: darkturquoise;
+    margin-top: 7px;
+    height: 62px;
+    margin-left: -16px;
+    background: darkturquoise
+}

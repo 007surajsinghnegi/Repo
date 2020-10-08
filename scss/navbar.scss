@@ -1,0 +1,71 @@
+@font-face {
+    font-family: helvetikabold;
+    src: url("../fonts/Helvetica-Bold-Font.ttf") format("truetype");
+}
+
+.nav-bar {
+    background-color: #1375bc !important;
+    a,
+    p {
+        color: white !important;
+        font-family: Helvetica !important;
+        font-weight: 400 !important;
+    }
+    .nav-menus {
+        a:hover,
+        a:active {
+            border-bottom: 5px solid;
+            border-bottom-color: white;
+            padding-bottom: 37px!important;
+        }
+    }
+    button {
+        border-radius: 40px !important;
+        background: white !important;
+        color: #1375bc !important;
+    }
+    ::placeholder {
+        color: black !important;
+    }
+    .contactbar{
+        .grid-x{
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    input[type="search"] {
+        font-family: Helvetica, FontAwesome !important;
+        font-weight: 400 !important;
+        border-radius: 40px !important;
+        max-width: 330px !important;
+        margin-right: 9rem !important;
+        min-width: 200px !important;
+    }
+    .button.expanded {
+        font-family: helvetikabold !important;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .nav-bar {
+        a {
+            font-size: 13px !important;
+        }
+        .nav-menus {
+            .grid-x {
+                justify-content: start !important;
+                padding: 12px;
+            }
+        }
+        input[type="search"] {
+            height: 1.4375rem !important;
+            margin: 15px 0 1rem !important;
+            font-size: 15px !important;
+            padding: 0px !important;
+        }
+        .button.expanded {
+            font-size: 10px !important;
+        }
+    }
+}

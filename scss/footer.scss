@@ -1,0 +1,45 @@
+.footer,
+.footer ul {
+    background-color: #1375bc !important;
+    color: white !important;
+    a {
+        color: white !important;
+    }
+    button {
+        border-radius: 40px !important;
+        background: white !important;
+        color: #1375bc !important;
+    }
+    .grid-x {
+        align-items: center !important;
+    }
+    .fa {
+        font-size: 30px !important;
+    }
+
+}
+.footer{
+    .contactlinks{
+        a:hover,
+        a:active {
+            border-bottom: 2px solid;
+            border-bottom-color: white;
+            padding-bottom: 14px;
+        }
+    }
+}
+@media screen and (max-width: 39.9375em) {
+    .footer {
+        a {
+            font-size: 13px !important;
+        }
+        .fa {
+            font-size: 20px !important;
+        }
+        .socialicons {
+            .grid-x {
+                justify-content: flex-end !important;
+            }
+        }
+    }
+}

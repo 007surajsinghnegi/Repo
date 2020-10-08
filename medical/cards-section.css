@@ -1,0 +1,207 @@
+.section
+{
+      display: flex;
+    
+    align-items: center;
+    margin-top: -45px;
+    justify-content: space-between;
+    height: 464px;
+}
+
+/*/////////////////////////////card1 /////////////*/
+.card-item1
+{align-items: center;
+    font-size: 26px;
+    display: flex;
+    height: 404px;
+    width: 34%;
+    margin-left: 19px;
+    border-radius: 4%;
+    justify-content: center;
+    margin-top: 36px;
+   background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-item1:hover .card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+      border-radius: 4%
+}
+
+
+.flip-card-front {
+  background-color: red;
+  color: white;
+}
+.flip-card-front>div
+{
+
+    margin-top: 171px;
+}
+.flip-card-back {
+  background-color: gold;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+/**************************************************** card1 finished//////////////////////////////*/
+
+
+
+/*//////////////////////////////// card2 */
+
+.card-item2
+{
+         align-items: center;
+    font-size: 26px;
+    display: flex;
+    height: 404px;
+    width: 34%;
+    margin-left: 19px;
+    border-radius: 4%;
+    justify-content: center;
+    margin-top: 36px;
+   background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.card2-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-item2:hover .card2-inner {
+  transform: rotateY(180deg);
+}
+.flip-card2-front, .flip-card2-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+      border-radius: 4%
+}
+
+
+.flip-card2-front {
+  background-color: #2980b9;
+  color: white;
+}
+.flip-card2-front>div
+{
+
+    margin-top: 171px;
+}
+.flip-card2-back {
+  background-color: gold;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+    /*---------------------------------------------------------------------card2 finished------------------------------*/
+/*//////////////////////////////// card2 */
+
+.card-item3
+{
+         align-items: center;
+    font-size: 26px;
+    display: flex;
+    height: 404px;
+    width: 34%;
+    margin-left: 19px;
+    border-radius: 4%;
+    justify-content: center;
+    margin-top: 36px;
+   background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.card3-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-item3:hover .card3-inner {
+  transform: rotateY(180deg);
+}
+.flip-card3-front, .flip-card3-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+      border-radius: 4%
+}
+
+
+.flip-card3-front {
+  background-color: #4CAF50;
+  color: white;
+}
+.flip-card3-front>div
+{
+
+    margin-top: 171px;
+}
+.flip-card3-back {
+  background-color: gold;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+    /*---------------------------------------------------------------------card2 finished------------------------------*/
+
+
+    .card-head
+    {
+         margin-right: 71px;
+    margin-top: 2%;
+    display: flex;
+    /* height: 404px; */
+    /* width: 58%; */
+    margin-left: 22px;
+    border-radius: 4%;
+    justify-content: center;
+    margin-right: 21px;
+    flex-direction: column;
+    }
+    .card-head>div
+{
+         
+                height: 72px;
+    margin-left: -2px;
+    border-radius: 0%;
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 6px;
+    padding: -23px;
+    margin-bottom: -31px;
+    font-size: 34px;
+}

@@ -1,0 +1,40 @@
+
+.nav-flex
+{
+	display: flex;
+  background-color: #4CAF50;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -8px;
+}
+
+.nav-flex > div {
+  
+  margin: 10px;
+  padding: 5px;
+  font-size: 25px;
+}
+.nav-flex a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.nav-flex .icon {
+  display: none;
+}
+.nav-flex>div>a
+{
+	text-decoration: none;
+	color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-flex {
+    display: flex;
+  background-color: #4CAF50;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: -8px;
+  }
+  
+}
+

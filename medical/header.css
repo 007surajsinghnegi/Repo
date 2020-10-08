@@ -1,0 +1,90 @@
+
+.flex-container {
+  display: flex;
+  background-color: #2980b9;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -8px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.flex-container > div {
+  
+  margin: 10px;
+  padding: 5px;
+  font-size: 30px;
+}
+.image a img{
+  
+ height: 50px;
+}
+.topic
+{
+	color: white;
+
+  text-align: center;
+}
+.flex-container1 {
+  display: flex;
+ 
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: -8px;
+  flex-wrap: wrap;
+}
+.flex-container1>div>a {
+       margin: 2px;
+    padding: 5px;
+    font-size: 23px;
+    flex-wrap: wrap;
+    margin-top: -12px;
+
+}
+.fa-facebook
+{
+
+float: right;
+background-color: #3B5998;
+color: white;
+}
+.fa-twitter
+{
+
+float: right;
+background-color: #55ACEE;
+color: white;
+}
+.fa-whatsapp
+{
+
+float: right;
+background-color:#25D366;
+color: white;
+}
+.fa-google
+{
+
+float: right;
+background-color: red;
+color: white;
+}
+
+.fa {
+  
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }  
+.fa:hover {
+  opacity: 0.9;
+  color: crimson;
+}
+@media screen and (max-width: 656px) {
+  div.flex-container1{
+    display: none;
+  }
+}

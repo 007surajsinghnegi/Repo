@@ -1,0 +1,51 @@
+.footer,
+.footer ul {
+  background-color: #1375bc !important;
+  color: white !important;
+}
+
+.footer a,
+.footer ul a {
+  color: white !important;
+}
+
+.footer button,
+.footer ul button {
+  border-radius: 40px !important;
+  background: white !important;
+  color: #1375bc !important;
+}
+
+.footer .grid-x,
+.footer ul .grid-x {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.footer .fa,
+.footer ul .fa {
+  font-size: 30px !important;
+}
+
+.footer .contactlinks a:hover,
+.footer .contactlinks a:active {
+  border-bottom: 2px solid;
+  border-bottom-color: white;
+  padding-bottom: 14px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .footer a {
+    font-size: 13px !important;
+  }
+  .footer .fa {
+    font-size: 20px !important;
+  }
+  .footer .socialicons .grid-x {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
